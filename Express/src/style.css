@@ -1,0 +1,159 @@
+﻿body
+{
+    background-color: thistle;
+}
+#site-header
+{
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#add-button
+{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 10px;
+    top: 10px;
+    font-size: xx-large;
+    font-weight: bold;
+    color: purple;
+}
+#posters
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ad
+{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    cursor: pointer;
+    justify-content: flex-start;
+}
+.ad-item
+{
+    padding: 5px;
+    word-wrap: normal;
+    margin: 0px;
+}
+.ad-author-date
+{
+    padding: 5px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+}
+.contact
+{
+    padding: 5px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    border-bottom-style: solid;
+    align-items: baseline;
+}
+.contact p:first-child, .ad-author-date p:first-child
+{
+    flex-grow: 1;
+}
+.contact p
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#screen
+{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-color: gray;
+    opacity: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#div-form
+{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#ad-window
+{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.ad-form
+{
+    display: flex;
+    flex-direction: column;
+}
+#form-title
+{
+    text-align: center;
+}
+#form-text
+{
+    padding: 5px;
+    margin: 0px;
+    border-bottom-style: solid;
+}
+input[type="button"], input[type="submit"]
+{
+    margin-top: 10px;
+    border-style: solid;
+    border-color: indigo;
+    border-radius: 5px;
+    font-size: medium;
+    background-color: lightblue;
+    height: 50px;
+}
+input[type="text"], input[type="date"], input[type="email"], input[type="tel"]
+{
+    margin: 5px;
+    border-style: solid;
+    border-color: indigo;
+    border-radius: 5px;
+    height: 25px;
+}
+#edit-form
+{
+    display: flex;
+    flex-direction: column;
+}
+#edit-title
+{
+    text-align: center;
+    font-size: large;
+}
+#edit-text
+{
+    display: flex;
+    margin: 5px;
+    border-style: solid;
+    border-color: indigo;
+    border-radius: 5px;
+    height: 180px;
+    resize: none;
+}
